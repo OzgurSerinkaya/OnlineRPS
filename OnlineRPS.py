@@ -159,6 +159,8 @@ def play():
 c,conn=ConnectToDB()
 SqL="CREATE TABLE IF NOT EXISTS  Winners (Player VARCHAR(20), Wins int(20))"
 
+# eksikler var
+
 c.execute(SqL)
 conn.commit()
 conn.close()
